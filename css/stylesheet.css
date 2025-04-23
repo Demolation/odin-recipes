@@ -1,6 +1,9 @@
 
-h1,
-p {
+body {
+        background-color: bisque;
+        font-family: "sans-serif";
+}
 
-        text-align: center;
+box1{
+      margin: 50px;  
 }
