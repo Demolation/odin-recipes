@@ -1,5 +1,5 @@
 body {
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         font-family: Tahoma, Geneva, sans-serif;
         
 
@@ -11,12 +11,16 @@ body {
         text-transform: none;
 }
 
-.container{
-      margin-left: 25%;
-      margin-top: 0px;
-      margin-right: 25%;
-      text-align: justify;
+.container {
+    max-width: 735px;
+    margin-left: 15%;   /* pushes content to the right */
+    margin-right: 35%;  /* adds more whitespace on the right side */
+    padding-left: 37px;
+    padding-right: 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 
 .row {
       display: flex;
